@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+/* header */
+.header{display:flex;height:70px;}
+.content{width:640px;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;}
+.logo{display:flex;}
+.logo .logo_txt{font-weight:bold;font-size:24px;color:#0e347e;margin-left:8px;}
+
+.menu_btn li{width:32px;height:4px;background-color:black;margin-bottom:6px;margin-right:12px;border-radius:4px;}
+
+.bx-wrapper{box-shadow:none;border:none;margin:0;}
+.bx-wrapper .bx-controls-direction a{display:none;}
+.bx-wrapper .bx-pager{bottom:20px;}
+.bx-wrapper .bx-pager.bx-default-pager a{background-color:#fff;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,.bx-wrapper .bx-pager.bx-default-pager a:focus{background-color:#fff;}
+.bx-wrapper .bx-pager.bx-default-pager a.active{background-color:#ffe600;}

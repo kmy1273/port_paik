@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+.fran_store{display:flex;}
+.fran_store>.franchise{position:relative;width:302px;height:291px;margin-left:12px;margin-right:12px;border:2px solid #0e347e;}
+.fran_store>.franchise>h3{position:absolute;font-size:34px;font-weight:bolder;color:#0e347e;top:15px;left:15px;}
+.fran_store>.franchise>p{position:absolute;font-size:14px;font-weight:medium;color:#202020;top:59px;left:15px;}
+.fran_store>.franchise>img{position:absolute;width:100%;height:214px;overflow:hidden;bottom:0;}
+.fran_store>.store{position:relative;width:302px;height:291px;margin-right:12px;border:2px solid #0e347e;}
+.fran_store>.store>h3{position:absolute;font-size:34px;font-weight:bolder;color:#0e347e;top:15px;left:15px;}
+.fran_store>.store>p{position:absolute;font-size:14px;font-weight:medium;color:#202020;top:59px;left:15px;}
+.fran_store>.store>input{position:absolute;width:90%;height:40px;border:2px solid #0e347e;bottom:43px;left:15px;padding:0 18px;}
+.fran_store>.store>.search{position:absolute;width:20px;height:20px;border:2px solid #0e3470;border-radius:50%;right:25px;bottom:55px;cursor:pointer;}
+.fran_store>.store>.search::before{content:'';position:absolute;width:13px;height:13px;transform:rotate(-45deg);border-left:2px solid #0e3470;right:-15px;bottom:-3px;cursor:pointer;}
+.sns{display:flex;flex-flow:column nowrap;justify-content:center;align-items:center;height:341px;}
+.sns>.hashtag{display:flex;flex-flow:row nowrap;justify-content:space-around;width:50%;margin-bottom:28px;}
+#sns{font-weight:bold;font-size:30px;color:#202020;margin-top:55px;margin-bottom:25px;}
+.sns>.hashtag>p:nth-child(1){font-weight:bold;font-size:16px;color:#999;flex-basis:53;}
+.sns>.hashtag>p:nth-child(2){font-weight:bold;font-size:16px;color:#999;flex-basis:90;}
+.sns>.hashtag>p:nth-child(3){font-weight:bold;font-size:16px;color:#999;flex-basis:90;}
+.sns>.line{width:96px;height:1px;background-color:#0e347e;line-height:0px;}
+.sns_icon{display:flex;flex-flow:row nowrap;justify-content:center;margin-top:26px;margin-bottom:127px;}
+.sns_icon>span:first-child{margin-right:16px;}
+.sns_icon>span:last-child{margin-left:17px;}
